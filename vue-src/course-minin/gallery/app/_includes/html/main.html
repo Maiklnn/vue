@@ -1,0 +1,60 @@
+<style>
+    [v-cloac] {
+        display: none;
+    }
+</style>
+<!--<div class="container pt-5" id="app" v-cloak>-->
+<!--    <div class="card center" @click="test">-->
+<!--        <div v-html ="myHtml"></div>-->
+<!--&lt;!&ndash;        <h2 v-text = 'title'></h2>&ndash;&gt;-->
+<!--        <h2 v-once>{{person.firstName}}</h2>-->
+<!--&lt;!&ndash;        <h2 v-pre>{{title}}</h2>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <button&ndash;&gt;-->
+<!--&lt;!&ndash;            class="btn"&ndash;&gt;-->
+<!--&lt;!&ndash;            @click="title = 'Теперь я новая кнопка'"&ndash;&gt;-->
+<!--&lt;!&ndash;        >Изменить</button>&ndash;&gt;-->
+
+<!--        <ul class="list" v-if="items.length">-->
+<!--            <li-->
+<!--                    class="list-item"-->
+<!--                    v-for="(item, i) in evenItems"-->
+<!--                    @click="items.splice(i, 1)"-->
+<!--                    :key="item"-->
+<!--            >-->
+<!--                {{item}}&nbsp-->
+<!--                <input type="text" @click="stopPropagation">-->
+<!--            </li>-->
+<!--&lt;!&ndash;            <li class="list-item" v-for="value in person">&ndash;&gt;-->
+<!--&lt;!&ndash;                {{value}}&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--        <h3 v-show="items.length === 0">Элементов нет</h3>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<div class="container pt-5" >
+    <div class="card center">
+        <ul class="list">
+            <li class="list-item" > 1 картинка </li>
+            <li class="list-item" > 2 картинка </li>
+            <li class="list-item" > 3 картинка </li>
+            <li class="list-item" > 4 картинка </li>
+        </ul>
+        <img src="" alt="">
+        <ul class="list" id="app2">
+            <li
+                    class="list-item"
+                    v-for="(item, i) in evenItems"
+                    @click="items.splice(i, 1)"
+                    :key="item"
+            >
+                {{item}}
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
