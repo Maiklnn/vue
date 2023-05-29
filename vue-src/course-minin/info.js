@@ -8,6 +8,6 @@
 	2. Virtual Dom и Render 04.59
 	3. Реактивность и Proxy 15.25
 	4. Жизненный цикл компонента 26.46 https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram
-	5. Создание нескльких приложений 33.45
+	5. Создание нескльких приложений 33.46
 
 */

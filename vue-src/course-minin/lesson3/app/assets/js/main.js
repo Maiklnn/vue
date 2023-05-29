@@ -46,7 +46,7 @@ const app = Vue.createApp({
 		console.log('mounted - перед уничтожением')
 	},
 	unmounted() {
-		console.log('mounted -  компонент был уничтожен')
+		console.log('mounted - компонент был уничтожен')
 	},
 	methods: {
 		changeTitle() {
