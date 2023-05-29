@@ -22,6 +22,7 @@ const app = Vue.createApp({
 			}, 'изменить')
 		])
 	},
+<<<<<<< HEAD
 	beforeCreate() {
 		console.log('beforeCreate - после инициализации event & lifecycle')
 	},
@@ -48,6 +49,8 @@ const app = Vue.createApp({
 	unmounted() {
 		console.log('mounted - компонент был уничтожен')
 	},
+=======
+>>>>>>> b4da08d79b60a2f18803feef40fa88369720ad03
 	methods: {
 		changeTitle() {
 			this.title = 'Изменить'
@@ -56,10 +59,13 @@ const app = Vue.createApp({
 	}
 })
 
+<<<<<<< HEAD
 // setTimeout(() => {
 // 	app.unmount()
 // }, 2000)
 
+=======
+>>>>>>> b4da08d79b60a2f18803feef40fa88369720ad03
 
 
 app.mount('#app');

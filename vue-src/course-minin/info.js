@@ -10,4 +10,5 @@
 	4. Жизненный цикл компонента 26.46 https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram
 	5. Создание нескльких приложений 33.46
 
+
 */
